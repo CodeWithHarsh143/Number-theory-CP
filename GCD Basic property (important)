@@ -1,0 +1,15 @@
+Properties of GCD (Greatest Common Divsior)
+
+1 . gcd(a,0) = |a| explain : so  every number is a multiple of 0 and a largest divisor of a then greatest common divisor is : a (sign does nt matter)
+
+2. gcd(a,b) = gcd(|a|,|b|) sign does'nt matter
+
+3.  if a divides b (b%a=0) then gcd(a,b) = a ( if a divides b then a<b and max common divisor can be upto smallest one but a divide b so gcd is a)
+
+4 . gcd(a,b) = gcd(a-b,b) where a>=b
+explain : suppose we have number d which divides both a and b 
+therefore: a/d and b/d
+so: a = d*n (n-> something number which is multiply by d to make a)
+  and b= d*m example 6/2 2 can divide 6 so we can write 6 =2*3 which is nothing but 2*(somenumber) became 6 (simple math)
+
+so a-b  = d(n-m) so d also divide a-b from property 3 we know if d divides a and a-b then there have same common divisor
