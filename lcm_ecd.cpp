@@ -20,10 +20,11 @@ int main() {
 
     long long a,b,lcm;
     cin >> a >> b;
-    lcm = (a/gcd(a,b))*b; // for preventing overflow
+    lcm = a/gcd(a,b)*b; // for preventing overflow
     cout << lcm << endl;
     
 
     return 0;
 
 }
+
