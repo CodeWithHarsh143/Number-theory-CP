@@ -39,7 +39,8 @@ int main() {
     -----> gcd(a,b) = gcd(b,a%b) (swap because till q a became less than b so a became big it or till b became zero because gcd(a,0) = a)
     we know when a<b then a%b = a---(1)
     so after gcd(a,b) --> swap -- > gcd(b,a%b) =gcd(b,a) using eq (1) so in this step nothing is reduce but we swap it
-
+    Time complexity: O(log(min(a,b))
+    space Complexity: O(1)
     */
     long long ans;
     long long a, b;
@@ -47,4 +48,5 @@ int main() {
     ans = itrative_eucl_gcd(a,b);
     cout << ans << endl;
     return 0;
+
 }
