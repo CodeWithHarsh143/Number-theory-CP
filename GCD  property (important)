@@ -1,0 +1,78 @@
+Properties of GCD (Greatest Common Divsior)
+
+( For LCM just use a/GCD(a,b)*b )
+
+1 . gcd(a,0) = |a| explain : so  every number is a multiple of 0 and a largest divisor of a then greatest common divisor is : a (sign does nt matter)
+
+2. gcd(a,b) = gcd(|a|,|b|) sign does'nt matter
+
+3.  if a divides b (b%a=0) then gcd(a,b) = a ( if a divides b then a<b and max common divisor can be upto smallest one but a divide b so gcd is a)
+
+4 . gcd(a,b) = gcd(a-b,b) where a>=b
+explain : suppose we have number d which divides both a and b 
+therefore: a/d and b/d
+so: a = d*n (n-> something number which is multiply by d to make a)
+  and b= d*m example 6/2 2 can divide 6 so we can write 6 =2*3 which is nothing but 2*(somenumber) became 6 (simple math)
+
+so a-b  = d(n-m) so d also divide a-b from property 3 we know if d divides a and a-b then there have same common divisor
+
+5. Every common divisor divides the gcd 
+Explain: a=24 and b = 36
+          and common divisors are: (1,2,4,6,12) and gcd is 12 so all common divisors are less than 12 and divided 12
+
+6. GCD as a linear combination
+    gcd(a,b) can be written as smallest positive integers of combination of ax+by = gcd(a,b) (Bezout's theorem/ identity)
+    example: a=30 , b=18
+      gcd(30,18) = 30*1+18*-1 = 18
+
+7. gcd(m.a,m.b) = m.gcd(a,b) (Scaleing property)
+
+  importance:
+
+  if gcd(a,b) = g then gcd(a/g,b/g) = 1 (they became co-prime)
+
+8 . adding multiple of b in doesn't change the gcd
+
+    gcd(a,b) = gcd(a+m*b,b) (it doesn't change common structure)
+
+9. Eucliden identity
+
+  gcd(a,b) = gcd(b,a%b)
+
+10 . gcd(a,1) = 1
+
+11. gcd is multplicative ( but when a and b are coprime)
+
+  gcd(a1*a2,b) = gcd(a1,b)*gcd(a2,b)
+
+12 . gcd(a,b) = gcd(b,a)
+
+13 . gcd(a,gcd(b,c)) = gcd(gcd(a,b),c)
+
+  used for gcd of arr and in prefix and suffix gcd
+
+14. gcd(a,lcm(b,c)) = lcm(gcd(a,b),gcd(a,c))
+
+15. Geometric interpitation 
+  On a grid, the number of integer point on the line is from (0.0) to (a,b) is gcd(a,b)+1
+
+16. Gcd of arithmetic progression :
+ for seq : a,a+d,a+2d,a+3d,a+4d.....
+  gcd = gcd(a,d)
+
+17. gcd of factorial
+
+  GCD(n!,m!) = min(n,m)! ex: GCD(3!,5!) = 3!
+
+18. gcd of powers
+  gcd(a^x,b^y) = gcd(a,b)^min(x,y)
+  for a and b are shared prime
+
+
+
+
+
+
+
+
+
