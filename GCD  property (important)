@@ -2,6 +2,13 @@ Properties of GCD (Greatest Common Divsior)
 
 ( For LCM just use a/GCD(a,b)*b )
 
+Important observation:
+1. GCD extract common structure
+2 divsion isolate damage. ex: if a divides b then its means all prime factors of a consist in or present in b.
+lets say a doesn't divides b so all prime factors are not present in b. so using divide we can find that prime factor which does not present in b of a 
+suppose its x. formula: x=a/GCD(a,b) ex 18/6=> x = > 18/(GCD(18,6) => 18/6 => 3 means 3 is the prime factor of 18 which does'nt present in 6
+3 . LCM merge indepentend constrants.
+
 1 . gcd(a,0) = |a| explain : so  every number is a multiple of 0 and a largest divisor of a then greatest common divisor is : a (sign does nt matter)
 
 2. gcd(a,b) = gcd(|a|,|b|) sign does'nt matter
